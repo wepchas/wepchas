@@ -1,0 +1,33 @@
+.About .about-head {
+  font-size: 52px;
+}
+
+.About .about-deta {
+  font-size: 30px;
+  line-height: 60px;
+}
+
+.About .img-part > img {
+  width: 100%;
+  height: auto;
+}
+
+@media (max-width: 992px) {
+  .About .img-part > img {
+    width: fit-content;
+  }
+}
+
+@media (max-width: 576px) {
+  .About .about-head {
+    font-size: 30px;
+  }
+  
+  .About .about-deta {
+    font-size: 20px;
+    line-height: 32px;
+  }
+  .About .img-part > img {
+    width: 70%;
+  }
+}

@@ -1,0 +1,42 @@
+.Footer {
+  background-color: #333;
+}
+
+.Footer .foot-cont {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.Footer .social-item {
+  width: 43px;
+  height: 43px;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.Footer .social-item + .social-item {
+  margin-left: 16px;
+}
+
+.Footer .social-item.insta {
+  background-image: url("../Images/Instagram.svg");
+}
+
+.Footer .social-item.face {
+  background-image: url("../Images/facebook.svg");
+}
+
+.Footer .social-item.linkedin {
+  background-image: url("../Images/linkedin.svg");
+}
+
+.Footer .social-item.youtube {
+  background-image: url("../Images/youtube.svg");
+}
+
+@media (max-width: 576px) {
+  .Footer .foot-cont {
+    font-weight: normal;
+  }
+}

@@ -1,0 +1,51 @@
+.MainNav .site-links {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.MainNav .site-links > .nav-link + .nav-link {
+  margin-left: 35px;
+}
+
+.MainNav .site-links > .nav-link {
+  color: white;
+  text-decoration: none;
+  padding: 0;
+}
+
+.MainNav .site-links > .nav-link:hover .circle{
+    display: block;
+}
+
+.MainNav .site-links > .nav-link .circle{
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    background-color: #fff;
+    margin: 0 auto;
+    margin-top: 8px;
+    display: none;
+}
+
+.MainNav .site-links > .nav-link.active .circle{
+    display: block;
+}
+
+@media (max-width: 992px) {
+  .MainNav .site-links {
+    font-weight: normal;
+    font-size: 16px;
+  }
+  .MainNav .site-links > .nav-link + .nav-link {
+    margin-left: 15px;
+  }
+}
+
+@media (max-width: 435px) {
+  .MainNav .site-links {
+    font-size: 12px;
+  }
+  .MainNav .site-links > .nav-link + .nav-link {
+    margin-left: 10px;
+  }
+}

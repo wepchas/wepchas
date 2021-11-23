@@ -1,0 +1,38 @@
+.MiniBox + .MiniBox {
+  padding-top: 0 !important;
+}
+
+.MiniBox .box-heading {
+  font-size: 52px;
+}
+
+.MiniBox .box-link {
+  font-size: 20px;
+  border: 1px solid #818181;
+  border-radius: 48px;
+  padding: 8px 20px;
+  transition: 0.5s;
+}
+
+.MiniBox .box-link:hover {
+  color: #fff;
+  background-color: var(--mypurple);
+}
+
+@media (max-width: 768px) {
+  .MiniBox .box-heading {
+    font-size: 25px;
+  }
+  .MiniBox .box-link {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 425px) {
+  .MiniBox .box-heading {
+    font-size: 20px;
+  }
+  .MiniBox .box-link {
+    font-size: 12px;
+  }
+}
