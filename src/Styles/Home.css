@@ -12,3 +12,12 @@
     background: url("../Images/BANNER.png") no-repeat;
     background-size: cover;
 }
+
+.content {
+  display: block;
+  max-width: 1230px;
+  min-width: 250px;
+  margin-right: auto;
+  margin-left: auto;
+  width: 100%;
+}

@@ -3,6 +3,7 @@ import MainNav from "../Components/MainNav";
 import MiniBox from "../Components/MiniBox";
 import Slider from "../Components/Slider";
 import "../Styles/Home.css";
+import "tayeh-ui/dist/index.min.css"
 import Stack_pic from "../Images/Stack.png";
 import Bloody_pic from "../Images/Bloody.png";
 import Rect from "../Images/Rectangle 24.png";
@@ -79,6 +80,7 @@ export default function Home() {
           <MainNav />
         </div>
       </div>
+      <div className="content">
       <MiniBox heading={"Featured games"} link={"/"}>
         <Slider
           data={Featured_games}
@@ -102,6 +104,7 @@ export default function Home() {
         />
       </MiniBox>
       <NextPro />
+      </div>
       <Footer />
     </div>
   );

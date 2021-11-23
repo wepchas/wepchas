@@ -40,3 +40,8 @@
     font-weight: normal;
   }
 }
+
+.Footer a {
+  text-decoration: none;
+  color: white;
+}

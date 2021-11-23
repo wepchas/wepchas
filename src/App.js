@@ -4,6 +4,7 @@ import Home from "./Routes/Home";
 import Privacy from "./Routes/Privacy";
 import Contact from "./Routes/Contact";
 import "bootstrap/dist/css/bootstrap.css";
+import "tayeh-ui/dist/index.min.css"
 
 function App() {
   return (
